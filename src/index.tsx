@@ -18,5 +18,5 @@ const LibTemplate = NativeModules.LibTemplate
     );
 
 export function multiply(a: number, b: number): Promise<number> {
-  return LibTemplate.multiply(a, b);
+  return LibTemplate.multiply(a, b).toString();
 }
