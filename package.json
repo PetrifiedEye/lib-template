@@ -43,13 +43,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/PetrifiedEye/react-native-lib-template",
+  "repository": "https://github.com/PetrifiedEye/lib-template",
   "author": "PetrifiedEye <yauheni.bezvadzitski@gmail.com> (https://github.com/PetrifiedEye)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PetrifiedEye/react-native-lib-template/issues"
+    "url": "https://github.com/PetrifiedEye/lib-template/issues"
   },
-  "homepage": "https://github.com/PetrifiedEye/react-native-lib-template#readme",
+  "homepage": "https://github.com/PetrifiedEye/lib-template#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -108,7 +108,8 @@
       "publish": true
     },
     "github": {
-      "release": true
+      "release": true,
+      "releaseName": "Release v${version}"
     },
     "plugins": {
       "@release-it/conventional-changelog": {
